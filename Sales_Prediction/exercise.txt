@@ -1,0 +1,18 @@
+1) a) y_pred = X_data . dot ( self . theta )
+2) c) C - B - A - D
+3) D)
+	def r2score ( y_pred , y ):
+	rss = np . sum (( y_pred - y ) ** 2)
+	tss = np . sum (( y - y . mean () ) ** 2)
+	r2 = 1 - ( rss / tss )
+	return r2
+4) b) 1.0 và -2.2
+5) b) y = 6x + 7
+6) b) Giá trị y phụ thuộc phi tuyến vào giá trị đầu vào X và tuyến tính vào giá trị trọng số θ
+7) A)
+	X_new = X
+	for d in range (2 , degree +1) :
+	X_new = np . c_ [ X_new , np . power (X , d ) ]
+8) A)
+9) a) df = pd . get_dummies ( df )
+10) a) 53.99
